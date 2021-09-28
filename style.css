@@ -105,4 +105,26 @@ h1{
 }
 #headicon{
     display: flex;
+    flex-direction: column;
+}
+#headicon ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 30px;
+}
+#headicon li{
+    padding-right: 30px;
+}
+#hero button{
+    font-size: 16px;
+    padding: 20px;
+    border: solid 2px white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#hero button:hover{
+    background-color: white;
+    color: skyblue;    
 }
