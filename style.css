@@ -103,3 +103,6 @@ h1{
     margin-right: 0;
     width: 20%;
 }
+#headicon{
+    display: flex;
+}
