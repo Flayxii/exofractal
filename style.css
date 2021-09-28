@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     width: 100%;
     color: slategray;
@@ -9,22 +13,37 @@ body{
     height: 100vh;
     background-color: skyblue;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+}
+#hero img{
+    border-radius: 8px;
+}
+#hero h2{
+    max-width: 25vw;
+}
+#hero div{
+    padding-right: 15px;
 }
 section{
     align-items: center;
     justify-content: space-around;
     display: flex
 }
-
+main section{
+    display: flex;
+    justify-content: center;
+}
 .pic{
     display: block;
     width: 20%;
     height: auto;
     border-radius: 100%;
     border-style: solid;
-    
+    box-sizing: border-box;
+    max-width: 20vw;
+    margin-right: 20px;
    
 
 }
@@ -47,10 +66,16 @@ footer{
 }
 #h1sed {
     justify-content: center ;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
-.p1{
-    display: block;
+.psec{
+    max-width: 30vw;
+    margin-right: 15vw;
 
+}
+#pmiddle{
+    margin-right: 0;
 }
 h1{
     align-content: center;
@@ -58,4 +83,9 @@ h1{
 }
 #right{
     text-align: end;
+    margin-left: 15vw;
+}
+#picright{
+    margin-left: 20px;
+    margin-right: 0;
 }
